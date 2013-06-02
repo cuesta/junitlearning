@@ -27,7 +27,8 @@ public class testHangmanLogic {
 
 	@Test
 	public void testGuessCharacter() throws InvalidInputException, AlreadyGuessedException {
-		Assert.assertEquals(false, HangmanLogic.guessCharacter(t));
+		Hangman hg = new HangmanLogic();
+		Assert.assertEquals(false, hg.guessCharacter(t));
 	}
 
 
