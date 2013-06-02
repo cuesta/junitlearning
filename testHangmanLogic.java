@@ -1,3 +1,11 @@
+/**********
+ * 
+ * public HangmanLogic(String keyPhrase, int numberOfGuesses) throws InvalidConfigurationException
+ * public String getKnownKeyPhrase()
+ * public String guessCharacter(char guess)
+ * *********/
+
+
 package a8testing;
 
 import org.junit.*;
