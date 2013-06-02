@@ -1,5 +1,5 @@
 /**********
- * 
+ * I need to set up tests for the following methods
  * public HangmanLogic(String keyPhrase, int numberOfGuesses) throws InvalidConfigurationException
  * public String getKnownKeyPhrase()
  * public String guessCharacter(char guess)
