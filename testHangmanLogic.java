@@ -23,12 +23,10 @@ public class testHangmanLogic {
 	private static String keyPhrase = "test";
 	private int numberOfGuesses = 5;
 
-
-
 	@Test
-	public void testGuessCharacter() throws InvalidInputException, AlreadyGuessedException {
-		Hangman hg = new HangmanLogic();
-		Assert.assertEquals(false, hg.guessCharacter(t));
+	public void testGuessCharacter() throws InvalidInputException, AlreadyGuessedException, InvalidConfigurationException {
+		HangmanLogic hg = new HangmanLogic(keyPhrase, 10);
+		Assert.assertEquals(true, HangmanLogic.guessCharacter(t));
 	}
 
 
